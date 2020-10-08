@@ -1,8 +1,5 @@
-const katzDeliLine = [];
-const currentLine = [];
-const name = [];
-
-function takeANumber (currentLine, name){
-  katzDeliLine.push(`${currentLine}, ${name}`)
-  return katzDeliLine;
+function currentLine(katzDeliLine){
+  if(!katzDeliLine.length){
+    console.log("The line is currntly empty.")
+  }else {console.log("The line is currently: " + katzDeliLine)}
 }
