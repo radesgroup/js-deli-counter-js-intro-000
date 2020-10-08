@@ -16,5 +16,5 @@ function nowServing(line){
   if(!line.length){
     return "There is nobody waiting to be served!"
   }
-  return `Now serving: ${line[0]}`;
+  return `Currently serving ${line[0]}`;
 }
