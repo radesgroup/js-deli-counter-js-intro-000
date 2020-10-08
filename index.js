@@ -5,7 +5,7 @@ function currentLine(line){
 
   const numAndName = [];
 
-   for(let i = 0; i = line.length; i++){
+   for(let i = 0; i < line.length; i++){
      numAndName.push('${i + 1}. ${line[i]}')
    }
    return `The line is currently: ${numAndName.join(', ')}`;
