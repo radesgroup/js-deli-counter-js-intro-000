@@ -11,3 +11,10 @@ function currentLine(line){
    return `The line is currently: ${numAndName.join(', ')}`;
 
 }
+
+function nowServing(line){
+  if(!line.length){
+    return "There is nobody waiting to be served!"
+  }
+  return `Now serving: ${line[0]}`;
+}
