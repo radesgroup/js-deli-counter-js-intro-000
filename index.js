@@ -8,6 +8,6 @@ function currentLine(line){
    for(let i = 0; i = line.length; i++){
      numAndName.push('${i + 1}. ${line[i]}')
    }
-   return "The line is currently: ${numAndName.join(', ')}";
-   
+   return `The line is currently: ${numAndName.join(', ')}`;
+
 }
